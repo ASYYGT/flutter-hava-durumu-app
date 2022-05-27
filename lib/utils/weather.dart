@@ -7,7 +7,7 @@ import 'package:http/http.dart';
 
 import 'location.dart';
 
-const apiKey = "4a3e1f5e3fd0d471f0284a75030a92e8";
+const apiKey = "*****************************";
 
 class WeatherDisplayData {
   Icon weatherIcon;
@@ -91,14 +91,14 @@ class WeatherData {
         return WeatherDisplayData(
             weatherIcon: Icon(FontAwesomeIcons.cloudMoonRain,
                 size: 75.0, color: Colors.grey[300]),
-            weatherImage: AssetImage('assets/yagmur_gece.png'));
+            weatherImage: AssetImage('assets/cise_gece.png'));
       }
       if (currentCondition < 600) {
         //hava yağmurlu ise
         return WeatherDisplayData(
             weatherIcon: Icon(FontAwesomeIcons.cloudShowersHeavy,
                 size: 75.0, color: Colors.blueGrey[300]),
-            weatherImage: AssetImage('assets/yagmur_gece.png'));
+            weatherImage: AssetImage('assets/cise_gece.png'));
       }
       if (currentCondition < 700) {
         //hava karlı ise
@@ -119,7 +119,8 @@ class WeatherData {
         return WeatherDisplayData(
             weatherIcon: Icon(FontAwesomeIcons.cloudMoon,
                 size: 75.0, color: Colors.grey[300]),
-            weatherImage: AssetImage('assets/bulutlu_gece.png'));
+            weatherImage: AssetImage('assets/bulutlu_gece.png')
+        );
       }
     }
   }

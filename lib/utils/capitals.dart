@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:http/http.dart';
 
-const apiKey = "4a3e1f5e3fd0d471f0284a75030a92e8";
+const apiKey = "*****************************";
 
 class Capitals {
   String _name;
